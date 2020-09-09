@@ -9,5 +9,6 @@ Description: More about what it does (maybe more than one line)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Depends: isa2, biclust, ggplot2, reshape2, reshape2
-Built: R 3.6.1; ; 2020-09-09 03:38:32 UTC; windows
+Depends: R (>= 3.5.0), isa2, ggplot2, reshape2
+NeedsCompilation: no
+Packaged: 2020-09-09 05:10:22 UTC; Mr.chen
