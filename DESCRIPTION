@@ -2,13 +2,13 @@ Package: REWISA
 Type: Package
 Title: REW-ISA: RNA Expression Weighted Iterative Signature Algorithm
 Version: 2.1.0
-Author: Who wrote it
+Author: Zhang, L., Chen, S., Zhu, J., Meng, J., & Liu, H
 Maintainer: Shutao Chen <shutao.chen@cumt.edu.cn>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.5.0), isa2, ggplot2, reshape2
+Depends: R (>= 3.5.0), isa2, reshape2
 NeedsCompilation: no
-Packaged: 2020-09-09 05:10:22 UTC; Mr.chen
+Packaged: 2020-12-24 09:34:22 UTC; Mr.chen
