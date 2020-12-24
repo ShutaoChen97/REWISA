@@ -39,6 +39,7 @@ REWISA_bicluster <- REWISA(FPKM_IP, FPKM_INPUT, optimization=FALSE, optimal_LFB_
 }
 \references{
 To use REW-ISA, please cite the following reference:
+
 Lin Zhang, Shutao Chen, Jingyi Zhu, Jia Meng and Hui Liu. REW-ISA: unveiling local functional blocks in epi-transcriptome profiling data via an RNA expression-weighted iterative signature algorithm. BMC bioinformatics, 2020, 21(1), 1-22.
 }
 \author{
@@ -61,7 +62,8 @@ REWISA_result <- REWISA(MethylationLevel = data, ExpressionLevel = weight,
                         thr_col_interval = seq(0.1, 1.5, 0.05), col_step = 0.05)
 
 ### The final LFBs are determined according to the optimal row threshold, column threshold and the number of LFBs.
-REWISA_bicluster <- REWISA(Ratio = data, weight = weight, optimization = FALSE, optimal_LFB_num = 3, 
+REWISA_bicluster <- REWISA(MethylationLevel = data, ExpressionLevel = weight,
+                           optimization = FALSE, optimal_LFB_num = 3, 
                            optimal_thr_row = 1.2, optimal_thr_col = 0.35)
 }
 
